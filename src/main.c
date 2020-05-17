@@ -30,8 +30,8 @@ int primo(int n){
 }
 	
 int main() {
-	/* Numero maximo de processos */
-	pid_t filho[4];
+	/* Numero maximo de processos 0 1 2 3 (4 processos)*/
+	pid_t filho[3];
 
 	/* Variaveis de auxilio geral */
 	int entrada[100];
